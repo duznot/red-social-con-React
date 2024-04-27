@@ -1,0 +1,101 @@
+/* PRINCIPALES CONTENEDORES */
+.App {
+  width: 100%;
+  height: auto;
+
+  border: solid .2rem lawngreen;
+}
+
+.mainContainer {
+  color: antiquewhite;
+  background-color: rgb(1, 6, 8);
+  
+  border: solid 0.2rem rgb(201, 27, 27);
+}
+
+/* BARRA DE NAVEGACION */
+nav {
+  background-color: rgb(37, 37, 35);
+  position: fixed;
+  width: 100%;
+  height: auto;
+  /* padding: 1rem; */
+  text-align: center;
+  display: flex;
+  border-bottom: 0.2rem solid rgb(255, 199, 1);
+  justify-content: space-between;
+
+  border: solid .2rem green;
+}
+
+.navMenu {
+  display: inline-block;
+  justify-content: center;
+
+  border: solid .2rem palevioletred;
+}
+
+.navMenuLink {
+  width: 9.5rem;
+  height: 3rem;
+  display: inline-block;
+  margin: .8rem .5rem;
+  padding: .7rem;
+  border: 0.08rem solid white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.navMenuLink:hover {
+  text-decoration: none;
+  border: 0.08rem solid rgba(248, 5, 5, 0.822);
+  cursor: pointer;
+}
+
+.navMenuLink.active {
+  font-size: 1rem;
+  border: 0.2rem solid rgb(232, 248, 5);
+  text-shadow: 0 0 1rem #fff, 0 0 5rem #fff, 0 0 5rem #fff, 0 0 10rem #e1e446,
+    0 0 10rem #e1e446;
+  -webkit-text-fill-color: #f4ecff;
+  -webkit-text-stroke-color: rgb(247, 230, 4);
+  -webkit-text-stroke-width: 0.1rem;
+}
+
+/* LOGO DE LA NAV */
+.App-logo-image {
+  float: left;
+  position: relative;
+  left: 1rem;
+  /* top: -1.5rem; */
+  width: 50%;
+  height: 5rem;
+
+  border: solid .2rem red;
+}
+
+/* HEADER */
+header {
+  background-color: rgb(22, 20, 20);
+  margin-bottom: 3rem;
+  border: solid .2rem red;
+}
+
+.header-logo-image {
+  /* float: left; */
+  width: 6rem;
+  height: 6rem;
+
+  border: solid .2rem red;
+}
+
+header h2{
+  display: inline;
+  margin: auto 13rem;
+  border: solid .2rem rgb(11, 33, 233);
+}
+
+
