@@ -3,7 +3,7 @@ import * as firebase from 'firebase'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAt0umhs7Ux-IkGsuRPQP_VRYtshTHLEzA",
+    apiKey: "api de firebase", // aqui poner su api de firebase de su base de datos 
     authDomain: "redsocialreact-ed89f.firebaseapp.com",
     databaseURL: "https://redsocialreact-ed89f.firebaseio.com",
     projectId: "redsocialreact-ed89f",
